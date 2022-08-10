@@ -1,0 +1,333 @@
+body{
+    height: 1200px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to left, #070128 , #3a336b , #070128);
+
+}
+
+
+/* .......................TOP SECTION...................................... */
+
+
+nav{
+    width: auto;
+    height: 0px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    bottom: 16px;
+}
+#signup , #login{
+    display: inline-block;
+   position: relative;
+   right: -635px;
+}
+
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color:#0ea5e9;  
+    transition-duration: 0.2s;
+} 
+
+
+/* .................................................HEADER SECTION.....................*/
+
+.headr{
+    width:100%;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    font-size: larger;
+    position: absolute;
+    left: 120px;
+    top:130px;
+}
+#img{
+    border-radius:5cm;
+    padding: 6px; 
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+}
+
+.title nav ul a {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    top: -500px;
+    left: 10px;
+    font-size: 20px;
+}
+
+#moto{
+    color: white;
+    position: absolute;
+    align-self: center;
+    width: fit-content;
+    z-index: 1;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color:lavender;
+    margin: 1px 0px px ;
+    font-size: 55px;
+}
+h1:hover{
+    transform: rotateY(15deg);
+    color:rgb(25, 198, 198);
+}
+h3{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#hlo{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.newsletter form input:first-child{
+    border: 2px solid white;
+    background-color: azure;
+    display: inline-block;
+    width: 350px;
+    padding: 14px 30px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline:none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 20px rgb(83, 95, 225);
+    bottom: 6px;
+    left:360px;
+}
+.newsletter form input:last-child:hover{
+    transform: scale(.97);
+    cursor: pointer;
+}
+
+/* ...............................Best Alumuni postcard........................ */
+.alumuni{
+    /* border: 5px solid white; */
+    border-radius: 10px;
+    /* height:445px; */
+    position: absolute  ;
+    top: 100%;
+    /* display: flex; */
+    /* background-image: url(/images/background.jpg) ;       */
+
+}
+.box1 {
+    position:relative;
+    top: 90%;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 350px;
+}
+
+.card{
+    border: 3px solid #82afd3;
+    height: 180px;
+    width: 230px;
+    padding: 25px 35px;
+    background-color:none;
+    border-radius: 20px;
+    margin: 40px;
+    margin-bottom: 1%;
+    margin-top: 3px;
+    margin-left: 50px;
+    position:relative;
+    top: 90px;
+    text-align: center;
+
+}
+
+.card i{
+    color: white;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    /* margin: 15px 0px; */
+    color: whitesmoke;
+    position: absolute;
+    top: 13px;
+    right: 135px;
+}
+
+h5{
+    color: chartreuse;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    background-color: none;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    text-align: center;
+    /* overflow: auto; */
+}
+
+.card .button{
+    background-color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 30px;
+    transition: .4s;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+    animation: alternate-reverse;
+}
+
+.card .button:hover{
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#pimg{
+    border: 2px solid red ;
+    z-index: 1;
+    width: 110px;
+    border-radius: 20%;
+    position:absolute;
+    top: 30%;
+    right: 29%;
+}
+ h2{
+    width: fit-content;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+    bottom: -15px;
+ }
+
+ /* body1 {
+    display: flex;
+    background: #262626;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 40px;
+    height: 100vh;
+    overflow: hidden;
+    color: #ff6a00
+} */
+/* *{ box-sizing: border-box; }
+.container{
+    display: inline-block;
+} */
+.end1, .middle1, .middle2{
+    /* border: 2px solid white; */
+    display: inline-block;
+    overflow:hidden;
+    height: 70px;
+    position: relative;
+    left: 480px;
+    top: 30px;
+}
+.end2{
+    position:relative;
+    left: 490px;
+    top: 20px;
+    color:#ff6a00
+}
+.middle1, .middle2{
+    color: #cfcfcf
+}
+.middle1 {
+    animation: ani1 5s infinite;
+    animation-delay: -3s;
+    max-width: 0;
+}
+.middle2 {
+    animation: ani2 5s infinite;
+    animation-delay: -3s;
+    max-width: 0;
+}
+
+@keyframes ani1 {
+    0% {
+    max-width: 500px;
+  }
+  
+  25% {
+    max-width: 0;
+  }
+  
+  75% {
+    max-width: 0;
+  }
+  
+  90% {
+    max-width: 500px;
+  }
+  
+  100% {
+    max-width: 500px;
+  }
+}
+
+@keyframes ani2 {
+    0% {
+        max-width: 0;
+    }
+
+    25% {
+        max-width: 0;
+    }
+
+    50% {
+        max-width: 500px;
+    }
+
+    75% {
+        max-width: 0;
+    }
+
+    100% {
+        max-width: 0;
+    }
+}
